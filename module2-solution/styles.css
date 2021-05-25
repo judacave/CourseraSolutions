@@ -1,0 +1,258 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;  
+  margin:  50px 25px 40px 25px;
+  
+}
+
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* Simple Responsive Framework. */
+.row {
+    
+    width: 100%;
+    height: 100%;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+
+#title1{
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+    
+    background-color: #f09075;
+   
+}
+section{
+  clear: right;
+  padding: 10px;
+}
+#title2{
+    position: relative;
+    width: 33.33%;
+    color: white;
+    text-align: center;
+    background-color: rgb(243, 14, 14);
+   
+}
+#title3{
+    background-color: rgb(202, 200, 77);
+    position: relative;
+    width: 33.33%;
+    
+    text-align: center;
+    
+}
+
+h2{
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid black;
+    
+}
+
+
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-dv-1, .col-dv-2, .col-dv-3, .col-dv-4, .col-dv-5, .col-dv-6, .col-dv-7, .col-dv-8, .col-dv-9, .col-dv-10, .col-dv-11, .col-dv-12 {
+    float: left;
+    
+    border: 1px solid black;
+  }
+  .col-dv-1 {
+    width: 7.66%;
+    height: 7.66%;
+  }
+  .col-dv-2 {
+    width: 15.32%;
+    height: 15.32%;
+  }
+  .col-dv-3 {
+    width: 22.98%;
+    height: 22.98%;
+  }
+  .col-dv-4 {
+    width: 30.64%;;
+    height: 30.64%;
+    margin: 1.3%;
+    background-color: rgba(152, 152, 153, 0.856)
+  }
+  .col-dv-5 {
+    width: 38.30%;
+    height: 38.30%;
+  }
+  .col-dv-6 {
+
+    
+    height: 45.96%;
+    width: 45.96%;
+  }
+  .col-dv-7 {
+    width: 53.62%;
+    height: 53.62%;
+  }
+  .col-dv-8 {
+    width: 61.28%;
+    height: 61.28%;
+  }
+  .col-dv-9 {
+    width: 68.94%;
+    height: 68.94%;
+  }
+  .col-dv-10 {
+    width: 76.60%;
+    height: 76.60%;
+  }
+  .col-dv-11 {
+    width: 84.26%;
+    height: 84.26%;
+  }
+  .col-dv-12 {
+    width: 91.92%;
+    height: 91.92%;
+   
+  }
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tv-1, .col-tv-2, .col-tv-3, .col-tv-4, .col-tv-5, .col-tv-6, .col-tv-7, .col-tv-8, .col-tv-9, .col-tv-10, .col-tv-11, .col-tv-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-tv-1 {
+    width: 7.66%;
+    height: 7.66%;
+  }
+  .col-tv-2 {
+    width: 15.32%;
+    height: 15.32%;
+  }
+  .col-tv-3 {
+    width: 22.98%;
+    height: 22.98%;
+  }
+  .col-tv-4 {
+    width: 30.64%;;
+    height: 30.64%;
+  }
+  .col-tv-5 {
+    width: 38.30%;
+    height: 38.30%;
+  }
+  .col-tv-6 {
+
+    background-color: rgba(152, 152, 153, 0.856);
+    margin: 1.8%;
+    height: 45.96%;
+    width: 45.96%;
+  }
+  .col-tv-7 {
+    width: 53.62%;
+    height: 53.62%;
+  }
+  .col-tv-8 {
+    width: 61.28%;
+    height: 61.28%;
+  }
+  .col-tv-9 {
+    width: 68.94%;
+    height: 68.94%;
+  }
+  .col-tv-10 {
+    width: 76.60%;
+    height: 76.60%;
+  }
+  .col-tv-11 {
+    width: 84.26%;
+    height: 84.26%;
+  }
+  .col-tv-12 {
+    width: 95.8%;
+    height: 95.8%;
+    margin: 1.8%;
+    background-color: rgba(152, 152, 153, 0.856);
+    
+   
+  }
+}
+
+
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+  .col-mv-1, .col-mv-2, .col-mv-3, .col-mv-4, .col-mv-5, .col-mv-6, .col-mv-7, .col-mv-8, .col-mv-9, .col-mv-10, .col-mv-11, .col-mv-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-mv-1 {
+    width: 8.33%;
+    height: 8.33%;
+  }
+  .col-mv-2 {
+    width: 16.66%;
+    height: 16.66%;
+  }
+  .col-mv-3 {
+    width: 25%;
+    height: 25%;
+  }
+  .col-mv-4 {
+    width: 33.33%;
+    height: 33.33%;
+  }
+  .col-mv-5 {
+    width: 41.66%;
+    height: 41.66%;
+  }
+  .col-mv-6 {
+    width: 50%;
+    height: 50%;
+  }
+  .col-mv-7 {
+    width: 58.33%;
+    height: 58.33%;
+  }
+  .col-mv-8 {
+    width: 66.66%;
+    height: 66.66%;
+  }
+  .col-mv-9 {
+    width: 74.99%;
+    height: 74.99%;
+  }
+  .col-mv-10 {
+    width: 83.33%;
+    height: 83.33%;
+  }
+  .col-mv-11 {
+    width: 91.66%;
+    height: 91.66%;
+  }
+  .col-mv-12 {
+    width: 90%;
+    background-color: rgba(152, 152, 153, 0.856);
+    margin: 4%;
+    height: 96%;
+  }
+}
+
