@@ -13,9 +13,14 @@ body {
 }
 .navbar-brand {
   padding-top: 25px;
+  padding-bottom: 8px;
+}
+.navbar-brand a{
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 .navbar-collapse{
-  padding: 0;
+  padding: 20px;
 }
 h1 { 
   font-family: 'Lora', serif;
@@ -61,6 +66,7 @@ h1 {
   margin-top: -30px;
 }
 .row{
+  
   height: 1000px;
   font-family: 'Lora', serif;
   font-weight: bold;
@@ -68,9 +74,11 @@ h1 {
   border: 1px solid #1b020b;
   margin: 40px 8px 20px 8px;
   background-color: #a7b9c0;
+  overflow: hidden;
 }
 .row p{
   padding: 10px;
+  
 }
 .row h2{
   padding-top: 5px;
